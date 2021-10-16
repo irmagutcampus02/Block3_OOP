@@ -2,6 +2,12 @@ public class Konto {
     private String inhaber;
     private double kontostand;
 
+    public Konto(String inhaber) {
+        // Konstruktor
+        this.inhaber = inhaber;
+        kontostand =0;
+    }
+
     public void setInhaber(String inhaber) {
         this.inhaber = inhaber;
         kontostand = 0;

@@ -23,6 +23,10 @@ public class Konto {
         else {
             System.out.println("Nicht genügend Geld am Konto!");
         }
+    }
 
+    public void print() {
+        System.out.println("Kontoinhaber: "
+                + inhaber + "; Kontostand: " + kontostand);
     }
 }
